@@ -1,0 +1,132 @@
+
+@import "../bourbon/bourbon";
+
+$color: #8238A7;//Theme skin
+$text_color: #888;
+$main_color: #222;
+$bg_light: #FAFAFA;
+
+@mixin kerning($kerning){
+	letter-spacing: $kerning + px;}
+
+body {
+	color: $main_color;
+	@include kerning(1);}
+    
+a {
+    color: $color;
+}
+    
+p, body footer.main_footer, .s_about li {
+    color: $text_color;
+}
+  
+.color_element{
+	color: $color;}
+.color_bg{
+	background-color: $color;}
+.color_border{
+	border-color: $color;}
+.bg_dark {
+   background-color: $main_color; 
+   color: #fff;
+
+    .s_descr::after {
+       background-color: #fff;
+    }
+    a {
+        color: #fff;}
+    }
+.bg_light {
+    background-color: $bg_light;
+}
+
+.s_descr {
+    @include kerning(5);
+        
+}
+.s_descr::after {
+       background-color: $main_color;}
+
+svg {
+    path {
+        fill: $color;
+    }
+}
+.toggle_mnu {
+    background-color: $color;
+
+    }
+
+.sandwich {
+    color: white;
+}
+
+nav.top_mnu ul a:hover { 
+    color: $color;
+    }
+
+nav.top_mnu ul a {
+    color: #fff;
+    @include kerning(4); }
+
+.top_text p {
+    color: $bg_light;
+    @include kerning(5);
+}
+section {
+    h3 {
+        @include kerning(3);
+        color: $text_color;
+    }
+}
+.s_about {    
+    p:nth-child(even) {
+        color: $color;
+    }
+}
+.personal_header {
+    @include kerning(3);
+    color: #555;
+}
+
+.exhibit_item {
+    border-color: $color;
+    p {
+        color: $main_color;
+    }
+    .year {
+        color: $main_color;
+    }}
+ 
+.s_gallery {
+    li {
+        color: $text_color;
+        @include kerning(2);
+    }
+    li.active {
+        color: #fff;
+        border-bottom: 1px solid $color;
+    }
+    
+}
+
+.gallery_item .gallery_item_cont {
+    a {
+        border-color: $color;
+        color: $color;
+    }
+}
+
+    .mfp-close {
+       
+        color: $text_color;}
+        
+.main_footer a {
+    color: $color;
+}
+
+  
+.contact_icon {
+    color: $color;
+}

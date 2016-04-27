@@ -1,0 +1,95 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #2EA2CC; }
+
+p, body footer.main_footer, .s_about li {
+  color: #888; }
+
+.color_element {
+  color: #2EA2CC; }
+
+.color_bg {
+  background-color: #2EA2CC; }
+
+.color_border {
+  border-color: #2EA2CC; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.s_descr {
+  letter-spacing: 5px; }
+
+.s_descr::after {
+  background-color: #222; }
+
+svg path {
+  fill: #2EA2CC; }
+
+.toggle_mnu {
+  background-color: #2EA2CC; }
+
+.sandwich {
+  color: white; }
+
+nav.top_mnu ul a:hover {
+  color: #2EA2CC; }
+
+nav.top_mnu ul a {
+  color: #fff;
+  letter-spacing: 4px; }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #888; }
+
+.s_about p:nth-child(even) {
+  color: #2EA2CC; }
+
+.personal_header {
+  letter-spacing: 3px;
+  color: #555; }
+
+.exhibit_item {
+  border-color: #2EA2CC; }
+  .exhibit_item p {
+    color: #222; }
+  .exhibit_item .year {
+    color: #222; }
+
+.s_gallery li {
+  color: #888;
+  letter-spacing: 2px; }
+.s_gallery li.active {
+  color: #fff;
+  border-bottom: 1px solid #2EA2CC; }
+
+.gallery_item .gallery_item_cont a {
+  border-color: #2EA2CC;
+  color: #2EA2CC; }
+
+.mfp-close {
+  color: #888; }
+
+.main_footer a {
+  color: #2EA2CC; }
+
+.contact_icon {
+  color: #2EA2CC; }
+
+/*# sourceMappingURL=blue.css.map */
